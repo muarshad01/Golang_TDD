@@ -13,6 +13,7 @@
 * The example function must start with the word `ExampleYYY()`
 * The benchmark function must start with the word `BenchmarkYYY(b *testing.B)`
   - The benchmark function takes one argument only `b *testing.B`
+  - The `testing.B` gives you access to the cryptically named `b.N`.
 
 * In order to use the `*testing.T` type, you need to `import "testing"`, like we did with `fmt` in the other file
 
