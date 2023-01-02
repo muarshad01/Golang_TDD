@@ -41,3 +41,17 @@ $ errcheck ./...
 $ errcheck all
 ```
 ***
+
+## run.sh
+
+```go
+#!/bin/bash
+
+go fmt ./...
+go vet ./...
+errcheck ./...
+
+go test -v
+go test -bench=.
+godoc -http=:8080     # http://localhost:8080/pkg/<...>
+```
