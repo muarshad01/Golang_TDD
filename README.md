@@ -19,12 +19,6 @@
 
 ***
 
-## Useful Articles
-
-* [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
-
-***
-
 ## errcheck
 
 * [errcheck](https://github.com/kisielk/errcheck)
@@ -55,3 +49,12 @@ go test -v
 go test -bench=.
 godoc -http=:8080     # http://localhost:8080/pkg/<...>
 ```
+
+***
+
+## Useful Articles
+
+* [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
+* [Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)
+
+***
