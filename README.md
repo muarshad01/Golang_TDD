@@ -20,3 +20,18 @@
 ***
 ## Useful Articles
 
+***
+
+* [errcheck](https://github.com/kisielk/errcheck)
+
+mkdir -p $GOPATH/src/<folder>             # E.g., install_errcheck
+$ cd $GOPATH/src/<folder>
+$ go mod init <folder>
+$ go mod tidy
+$ go install github.com/kisielk/errcheck@latest
+
+$ errcheck .
+$ errcheck ./...
+$ errcheck all
+
+***
