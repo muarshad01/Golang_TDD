@@ -18,7 +18,10 @@
 * In order to use the `*testing.T` type, you need to `import "testing"`, like we did with `fmt` in the other file
 
 ***
+
 ## Useful Articles
+
+* [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
 
 ***
 
