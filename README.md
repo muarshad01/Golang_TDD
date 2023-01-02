@@ -53,10 +53,14 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 ***
 
 ## Useful Articles
-
+* [Go](https://wiki.nikiv.dev/programming-languages/go/)
+* [--> Go Recipes - Amazing tools](https://github.com/nikolaydubina/go-recipes)
+* [--> The Busy Developer's Guide to Go Profiling, Tracing and Observability](https://github.com/DataDog/go-profiler-notes/blob/main/guide/README.md)
 * [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
 * [Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)
 * [Testing Go code](https://subscription.packtpub.com/book/programming/9781838559335/11/ch11lvl1sec145/testing-go-code)
 * [Golang basics - writing unit tests](https://blog.alexellis.io/golang-writing-unit-tests/)
+* [Testing Your Go App: Get Started The Right Way](https://www.toptal.com/go/your-introductory-course-to-testing-with-go)
+* [Better tests for Golang apps](https://levelup.gitconnected.com/better-tests-for-golang-apps-681ed2338677)
 
 ***
