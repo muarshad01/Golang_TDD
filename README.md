@@ -25,6 +25,8 @@
 
 ***
 
+## errcheck
+
 * [errcheck](https://github.com/kisielk/errcheck)
 
 ```go
