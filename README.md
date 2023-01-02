@@ -56,5 +56,6 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 
 * [Constant errors](https://dave.cheney.net/2016/04/07/constant-errors)
 * [Comprehensive Guide to Testing in Go](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/)
+* [Testing Go code](https://subscription.packtpub.com/book/programming/9781838559335/11/ch11lvl1sec145/testing-go-code)
 
 ***
