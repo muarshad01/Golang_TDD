@@ -46,6 +46,7 @@ go vet ./...
 errcheck ./...
 
 go test -v
+go test -race         # Check RACE condition
 go test -bench=.
 godoc -http=:8080     # http://localhost:8080/pkg/<...>
 ```
