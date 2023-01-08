@@ -68,3 +68,6 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 * [Go Blog - Context](https://go.dev/blog/context)
 
 ***
+
+## Go Profiling
+* [How to profile Go with pprof in 30 seconds](https://dev.to/agamm/how-to-profile-go-with-pprof-in-30-seconds-592a)
