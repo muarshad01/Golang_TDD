@@ -71,3 +71,7 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 
 ## Go Profiling
 * [How to profile Go with pprof in 30 seconds](https://dev.to/agamm/how-to-profile-go-with-pprof-in-30-seconds-592a)
+* [Getting started with Go CPU and memory profiling](https://flaviocopes.com/golang-profiling/)
+* [Profiling in GoLang](https://golangdocs.com/profiling-in-golang)
+* [Make Your Go Programs Lightning Fast With Profiling](https://code.tutsplus.com/tutorials/make-your-go-programs-lightning-fast-with-profiling--cms-29809)
+* [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
