@@ -75,3 +75,4 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 * [Profiling in GoLang](https://golangdocs.com/profiling-in-golang)
 * [Make Your Go Programs Lightning Fast With Profiling](https://code.tutsplus.com/tutorials/make-your-go-programs-lightning-fast-with-profiling--cms-29809)
 * [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
+* [pprof++: A Go Profiler with Hardware Performance Monitoring](https://www.uber.com/blog/pprof-go-profiler/)
