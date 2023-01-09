@@ -103,15 +103,15 @@ $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
 ```
 
-`/debug/pprof/alloc`:         A sampling of all past memory allocations
-`/debug/pprof/block`:         Stack traces that led to blocking on synchronization primitives
-`/debug/pprof/cmdline`:       The command line invocation of the current program
-`/debug/pprof/goroutine`:     Stack traces of all current goroutines
-`/debug/pprof/heap`:          A sampling of memory allocations of live objects. You can specify the gc GET parameter to run GC before taking the heap sample.
-`/debug/pprof/mutex`:         Stack traces of holders of contended mutexes
-`/debug/pprof/profile`:       CPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.
-`/debug/pprof/threadcreate`:  Stack traces that led to the creation of new OS threads
-`/debug/pprof/trace`:         A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.
+* `/debug/pprof/alloc`:         A sampling of all past memory allocations
+* `/debug/pprof/block`:         Stack traces that led to blocking on synchronization primitives
+* `/debug/pprof/cmdline`:       The command line invocation of the current program
+* `/debug/pprof/goroutine`:     Stack traces of all current goroutines
+* `/debug/pprof/heap`:          A sampling of memory allocations of live objects. You can specify the gc GET parameter to run GC before taking the heap sample.
+* `/debug/pprof/mutex`:         Stack traces of holders of contended mutexes
+* `/debug/pprof/profile`:       CPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.
+* `/debug/pprof/threadcreate`:  Stack traces that led to the creation of new OS threads
+* `/debug/pprof/trace`:         A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.
 
 ```go
 $ go tool pprof http://localhost:6060/debug/pprof/profile?seconds=5  ???
