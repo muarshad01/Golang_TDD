@@ -86,17 +86,23 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 $ brew
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew install graphviz
+```
 
+```go
 $ mkdir install_pprof
 $ cd install_pprof
 $ got mod init install_pprof
 $ go get -u github.com/google/pprof
+```
 
+```go
 $ go tool pprof http://localhost:6060/debug/pprof/heap
 $ go tool pprof http://localhost:6060/debug/pprof/goroutine
 $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
+```go
 
+```go
 $ go tool pprof http://localhost:6060/debug/pprof/profile?seconds=5  ???
 $ go tool pprof http://localhost:6060/debug/pprof/trace?seconds=5 ???
 ```
