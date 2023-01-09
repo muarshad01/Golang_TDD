@@ -96,6 +96,7 @@ $ go tool pprof http://localhost:6060/debug/pprof/heap
 $ go tool pprof http://localhost:6060/debug/pprof/goroutine
 $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
-$ go tool pprof http://localhost:6060/debug/pprof/profile?seconds=5
-$ go tool pprof http://localhost:6060/debug/pprof/trace?seconds=5
+
+$ go tool pprof http://localhost:6060/debug/pprof/profile?seconds=5  ???
+$ go tool pprof http://localhost:6060/debug/pprof/trace?seconds=5 ???
 ```
