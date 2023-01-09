@@ -79,3 +79,19 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 * [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
 * [pprof++: A Go Profiler with Hardware Performance Monitoring](https://www.uber.com/blog/pprof-go-profiler/)
 * [Performance Measuring, Profiling, and Optimizing Tips for Go Web Applications](https://articles.wesionary.team/performance-measuring-profiling-and-optimizing-tips-for-go-web-applications-20f2f812ff6e)
+
+***
+
+```go
+$ brew
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew install graphviz
+
+$ mkdir install_pprof
+$ cd install_pprof
+$ got mod init install_pprof
+$ go get -u github.com/google/pprof
+
+$ go tool pprof http://localhost:6060/debug/pprof/heap
+$ go tool pprof http://localhost:6060/debug/pprof/goroutine
+```
