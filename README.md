@@ -77,6 +77,7 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 * [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
 * [pprof++: A Go Profiler with Hardware Performance Monitoring](https://www.uber.com/blog/pprof-go-profiler/)
 * [Performance Measuring, Profiling, and Optimizing Tips for Go Web Applications](https://articles.wesionary.team/performance-measuring-profiling-and-optimizing-tips-for-go-web-applications-20f2f812ff6e)
+* [Go: The Complete Guide to Profiling Your Code](https://hackernoon.com/go-the-complete-guide-to-profiling-your-code-h51r3waz)
 
 ***
 
