@@ -101,6 +101,8 @@ $ go tool pprof http://localhost:6060/debug/pprof/heap
 $ go tool pprof http://localhost:6060/debug/pprof/goroutine
 $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
+$ go tool pprof http://localhost:6060/debug/pprof/profile
+$ go tool pprof http://localhost:6060/debug/pprof/trace
 ```
 
 * `/debug/pprof/alloc`:         A sampling of all past memory allocations
@@ -112,8 +114,3 @@ $ go tool pprof http://localhost:6060/debug/pprof/mutex
 * `/debug/pprof/profile`:       CPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.
 * `/debug/pprof/threadcreate`:  Stack traces that led to the creation of new OS threads
 * `/debug/pprof/trace`:         A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.
-
-```go
-$ go tool pprof http://localhost:6060/debug/pprof/profile?seconds=5  ???
-$ go tool pprof http://localhost:6060/debug/pprof/trace?seconds=5 ???
-```
