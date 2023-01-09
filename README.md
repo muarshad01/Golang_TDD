@@ -101,10 +101,11 @@ $ go tool pprof http://localhost:6060/debug/pprof/goroutine
 $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
 $ go tool pprof http://localhost:6060/debug/pprof/profile
-$ go tool pprof http://localhost:6060/debug/pprof/trace
+$ go tool pprof http://localhost:6060/debug/pprof/trace?seconds=5
 
 $ go tool pprof -http=:6061 http://localhost:6060/debug/pprof/profile
 $ go tool pprof -http=:6062 http://localhost:6060/debug/pprof/heap
+$ go tool trace   # for traced file, which is no .pprof
 ```
 
 * `/debug/pprof/alloc`:         A sampling of all past memory allocations
