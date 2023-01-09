@@ -103,6 +103,7 @@ $ go tool pprof http://localhost:6060/debug/pprof/profile
 $ go tool pprof http://localhost:6060/debug/pprof/trace
 
 $ go tool pprof -http=:6061 http://localhost:6060/debug/pprof/profile
+$ go tool pprof -http=:6062 http://localhost:6060/debug/pprof/heap
 ```
 
 * `/debug/pprof/alloc`:         A sampling of all past memory allocations
