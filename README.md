@@ -101,6 +101,8 @@ $ go tool pprof http://localhost:6060/debug/pprof/block
 $ go tool pprof http://localhost:6060/debug/pprof/mutex
 $ go tool pprof http://localhost:6060/debug/pprof/profile
 $ go tool pprof http://localhost:6060/debug/pprof/trace
+
+$ go tool pprof -http=:6061 http://localhost:6060/debug/pprof/profile
 ```
 
 * `/debug/pprof/alloc`:         A sampling of all past memory allocations
