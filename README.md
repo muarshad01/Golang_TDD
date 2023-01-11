@@ -81,7 +81,7 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 * [DataDog](https://github.com/DataDog/go-profiler-notes)
 ***
 
-## Install Brew & Graphviz
+## Install brew & graphviz
 
 ```go
 $ brew
@@ -89,7 +89,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 $ brew install graphviz
 ```
 
-## Install PPROF
+## Install pprof
 
 ```go
 $ mkdir install_pprof
@@ -98,7 +98,7 @@ $ got mod init install_pprof
 $ go get -u github.com/google/pprof
 ```
 
-### PPROF Uasage 
+### pprof uasage 
 
 ```go
 $ go tool pprof http://localhost:{APP PORT}/{pprof endpoint}
