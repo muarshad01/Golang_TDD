@@ -69,18 +69,6 @@ godoc -http=:8080     # http://localhost:8080/pkg/<...>
 
 ***
 
-## Go Profiling
-* [Profiling Go programs with pprof](https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/)
-* [How to profile Go with pprof in 30 seconds](https://dev.to/agamm/how-to-profile-go-with-pprof-in-30-seconds-592a)
-* [Profiling in GoLang](https://golangdocs.com/profiling-in-golang)
-* [Make Your Go Programs Lightning Fast With Profiling](https://code.tutsplus.com/tutorials/make-your-go-programs-lightning-fast-with-profiling--cms-29809)
-* [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
-* [pprof++: A Go Profiler with Hardware Performance Monitoring](https://www.uber.com/blog/pprof-go-profiler/)
-* [Performance Measuring, Profiling, and Optimizing Tips for Go Web Applications](https://articles.wesionary.team/performance-measuring-profiling-and-optimizing-tips-for-go-web-applications-20f2f812ff6e)
-* [Go: The Complete Guide to Profiling Your Code](https://hackernoon.com/go-the-complete-guide-to-profiling-your-code-h51r3waz)
-* [DataDog](https://github.com/DataDog/go-profiler-notes)
-***
-
 ## Install brew & graphviz
 
 ```go
@@ -123,3 +111,17 @@ $ go tool trace   # for traced file, which is no .pprof
 * `/debug/pprof/profile`:       CPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.
 * `/debug/pprof/threadcreate`:  Stack traces that led to the creation of new OS threads
 * `/debug/pprof/trace`:         A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.
+
+## Go Profiling Articles
+
+* [Profiling Go programs with pprof](https://jvns.ca/blog/2017/09/24/profiling-go-with-pprof/)
+* [How to profile Go with pprof in 30 seconds](https://dev.to/agamm/how-to-profile-go-with-pprof-in-30-seconds-592a)
+* [Profiling in GoLang](https://golangdocs.com/profiling-in-golang)
+* [Make Your Go Programs Lightning Fast With Profiling](https://code.tutsplus.com/tutorials/make-your-go-programs-lightning-fast-with-profiling--cms-29809)
+* [Profiling in Go](https://betterprogramming.pub/profiling-in-go-78cf71f81a07)
+* [pprof++: A Go Profiler with Hardware Performance Monitoring](https://www.uber.com/blog/pprof-go-profiler/)
+* [Performance Measuring, Profiling, and Optimizing Tips for Go Web Applications](https://articles.wesionary.team/performance-measuring-profiling-and-optimizing-tips-for-go-web-applications-20f2f812ff6e)
+* [Go: The Complete Guide to Profiling Your Code](https://hackernoon.com/go-the-complete-guide-to-profiling-your-code-h51r3waz)
+* [DataDog](https://github.com/DataDog/go-profiler-notes)
+
+***
